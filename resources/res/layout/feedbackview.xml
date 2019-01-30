@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <TextView n1:gravity="center" n1:id="@+id/t1" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginTop="30dp" n1:text="@string/feedback_text1" n1:layout_weight="0.1"/>
+    <TextView n1:gravity="center" n1:id="@+id/t2" n1:layout_width="match_parent" n1:layout_height="0dp" n1:text="@string/feedback_text2" n1:layout_weight="0.1"/>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.5">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.15"/>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.7">
+            <CheckBox n1:id="@+id/checkBox0" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/feedback_text3"/>
+            <CheckBox n1:id="@+id/checkBox1" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/feedback_text4"/>
+            <CheckBox n1:id="@+id/checkBox2" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/feedback_text5"/>
+            <CheckBox n1:id="@+id/checkBox3" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:text="@string/feedback_text6"/>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.15"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.1"/>
+    <Button n1:layout_gravity="center" n1:id="@+id/button" n1:layout_width="300dp" n1:layout_height="0dp" n1:layout_marginLeft="30dp" n1:layout_marginRight="30dp" n1:text="@string/ok" n1:layout_weight="0.1"/>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.1"/>
+</LinearLayout>

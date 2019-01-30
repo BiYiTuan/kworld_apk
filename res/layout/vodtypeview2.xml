@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ItemLayout" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout0" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView0" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type0" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle0" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout1" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView1" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type1" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle1" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout2" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView2" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type2" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle2" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout3" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView3" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type3" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle3" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout4" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView4" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type4" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle4" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout5" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView5" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/type5" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle5" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ItemLayout6" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.14">
+        <ImageView n1:gravity="center|right" n1:layout_gravity="center" n1:id="@id/ItemView6" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:src="@mipmap/back" n1:layout_weight="0.5" />
+        <TextView n1:textSize="25.0dip" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemTitle6" n1:layout_width="wrap_content" n1:layout_height="40.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.5" n1:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <TextView n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/leftday" n1:background="@drawable/gradient7" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="8.0dip" n1:singleLine="true" n1:layout_weight="0.07" n1:marqueeRepeatLimit="marquee_forever" n1:isScrollContainer="true" />
+</LinearLayout>

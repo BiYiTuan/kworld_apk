@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_margin="8dp" n1:layout_weight="0.1">
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext0" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext1" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext2" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext3" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext4" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext5" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/daytext6" n1:background="#00000000" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="" n1:layout_weight="0.1"/>
+    </LinearLayout>
+    <View n1:background="#ffffffff" n1:layout_width="match_parent" n1:layout_height="2dp"/>
+    <ListView n1:id="@+id/listview" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="8dp" n1:layout_marginTop="8dp" n1:layout_marginRight="8dp" n1:layout_marginBottom="8dp" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="2dp" n1:layout_weight="0.9"/>
+</LinearLayout>

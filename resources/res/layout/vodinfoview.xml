@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.35">
+        <TextView n1:gravity="center" n1:layout_gravity="right|center_vertical|center_horizontal|center" n1:id="@+id/info0_text1" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="@string/vodplay_text2" n1:layout_weight="0.2"/>
+        <TextView n1:gravity="left|center_vertical|center_horizontal|center" n1:layout_gravity="left|center_vertical|center_horizontal|center" n1:id="@+id/info0_text2" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.75"/>
+        <ImageView n1:id="@+id/info_line" n1:background="@drawable/select2" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:src="@mipmap/vodline" n1:layout_weight="0.05"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.65">
+        <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/info1_text0" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="00:00" n1:layout_weight="0.15"/>
+        <SeekBar n1:scrollbarStyle="outsideOverlay" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/info1_progressBar" n1:paddingLeft="5px" n1:paddingTop="5px" n1:paddingRight="5px" n1:paddingBottom="5px" n1:layout_width="0dp" n1:layout_height="wrap_content" n1:maxHeight="5px" n1:max="100" n1:progressDrawable="@drawable/seekbar_img" n1:minHeight="5px" n1:thumb="@drawable/thumb_ttpod" n1:thumbOffset="1px" n1:layout_weight="0.7"/>
+        <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/info1_text1" n1:layout_width="0dp" n1:layout_height="match_parent" n1:text="00:00" n1:layout_weight="0.15"/>
+    </LinearLayout>
+</LinearLayout>

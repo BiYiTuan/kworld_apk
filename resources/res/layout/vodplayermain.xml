@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:background="@mipmap/vb" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.15">
+        <LinearLayout n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.5"/>
+        <TextView n1:textColor="@color/white" n1:gravity="right" n1:layout_gravity="right|center_vertical|center_horizontal|center" n1:id="@+id/timetext" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginTop="10dp" n1:layout_marginRight="5dp" n1:text="AAAAAAAAAAA" n1:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.41">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.02"/>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.12">
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout10" n1:background="@drawable/gradient14" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33">
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33">
+                    <ImageView n1:gravity="right|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/home_search_focused" n1:scaleType="centerInside" n1:layout_weight="0.5"/>
+                    <TextView n1:textColor="@android:color/white" n1:gravity="left|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:id="@+id/Text10" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text1" n1:layout_weight="0.5"/>
+                </LinearLayout>
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout11" n1:background="@drawable/gradient14" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginTop="3dp" n1:layout_weight="0.33">
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33">
+                    <ImageView n1:gravity="right|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/home_history_pressed" n1:scaleType="centerInside" n1:layout_weight="0.5"/>
+                    <TextView n1:textColor="@android:color/white" n1:gravity="left|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:id="@+id/Text11" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text5" n1:layout_weight="0.5"/>
+                </LinearLayout>
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout12" n1:background="@drawable/gradient14" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginTop="3dp" n1:layout_weight="0.33">
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33">
+                    <ImageView n1:gravity="right|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/user_icon_normal" n1:scaleType="centerInside" n1:layout_weight="0.5"/>
+                    <TextView n1:textColor="@android:color/white" n1:gravity="left|center_vertical|center_horizontal|center" n1:layout_gravity="center" n1:id="@+id/Text12" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text3" n1:layout_weight="0.5"/>
+                </LinearLayout>
+                <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.33"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.01"/>
+        <LinearLayout n1:orientation="horizontal" n1:background="#ff202629" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.7">
+            <FrameLayout n1:orientation="horizontal" n1:id="@+id/layout20" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.25">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Image20" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/vdef" n1:scaleType="fitXY"/>
+                <TextView n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="bottom|center_vertical|center_horizontal|center" n1:layout_gravity="bottom|center_vertical|center_horizontal|center" n1:id="@+id/Text20" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+            </FrameLayout>
+            <FrameLayout n1:orientation="horizontal" n1:id="@+id/layout21" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.25">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Image21" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/vdef" n1:scaleType="fitXY"/>
+                <TextView n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="bottom|center_vertical|center_horizontal|center" n1:layout_gravity="bottom|center_vertical|center_horizontal|center" n1:id="@+id/Text21" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+            </FrameLayout>
+            <FrameLayout n1:orientation="horizontal" n1:id="@+id/layout22" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.25">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Image22" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/vdef" n1:scaleType="fitXY"/>
+                <TextView n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="bottom|center_vertical|center_horizontal|center" n1:layout_gravity="bottom|center_vertical|center_horizontal|center" n1:id="@+id/Text22" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+            </FrameLayout>
+            <FrameLayout n1:orientation="horizontal" n1:id="@+id/layout23" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.25">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Image23" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/vdef" n1:scaleType="fitXY"/>
+                <TextView n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="bottom|center_vertical|center_horizontal|center" n1:layout_gravity="bottom|center_vertical|center_horizontal|center" n1:id="@+id/Text23" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+            </FrameLayout>
+            <FrameLayout n1:orientation="horizontal" n1:id="@+id/layout24" n1:padding="5dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.25">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Image24" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/vdef" n1:scaleType="fitXY"/>
+                <TextView n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="bottom|center_vertical|center_horizontal|center" n1:layout_gravity="bottom|center_vertical|center_horizontal|center" n1:id="@+id/Text24" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.02"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.43">
+        <LinearLayout n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.2"/>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.4">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.15"/>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout30" n1:padding="10dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.29">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/voditem1" n1:scaleType="fitCenter" n1:layout_weight="0.7"/>
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Text30" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text3" n1:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout31" n1:padding="10dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.29">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/voditem2" n1:scaleType="fitCenter" n1:layout_weight="0.7"/>
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Text31" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text3" n1:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout32" n1:padding="10dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.29">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/voditem3" n1:scaleType="fitCenter" n1:layout_weight="0.7"/>
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Text32" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text3" n1:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout33" n1:padding="10dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.29">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/voditem4" n1:scaleType="fitCenter" n1:layout_weight="0.7"/>
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Text33" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodplayermain_text3" n1:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@+id/layout34" n1:padding="10dp" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.29">
+                <ImageView n1:gravity="center" n1:layout_gravity="center" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:src="@mipmap/voditem5" n1:scaleType="fitCenter" n1:layout_weight="0.7"/>
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/Text34" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/back" n1:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.15"/>
+        </LinearLayout>
+        <FrameLayout n1:gravity="bottom" n1:layout_gravity="bottom" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.18">
+            <com.gemini.play.ScrollTextView n1:ellipsize="marquee" n1:gravity="bottom" n1:layout_gravity="bottom" n1:id="@+id/scrolltext" n1:paddingTop="10dp" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_marginTop="5dp" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

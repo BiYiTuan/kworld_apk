@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/ItemIcon" n1:padding="10.0dip" n1:layout_width="0.0dip" n1:layout_height="40.0dip" n1:layout_weight="0.25" />
+    <TextView n1:textSize="25.0dip" n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/ItemName" n1:layout_width="0.0dip" n1:layout_height="45.0dip" n1:layout_weight="0.75" />
+</LinearLayout>

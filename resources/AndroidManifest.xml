@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:n1="http://schemas.android.com/apk/res/android" n1:versionCode="130" n1:versionName="13.0" package="com.gemini.kvod2" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk n1:minSdkVersion="16" n1:targetSdkVersion="26"/>
+    <uses-permission n1:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission n1:name="android.permission.READ_LOGS"/>
+    <uses-permission n1:name="android.permission.INTERNET"/>
+    <uses-permission n1:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission n1:name="android.permission.READ_CONTACTS"/>
+    <uses-permission n1:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission n1:name="android.permission.VIBRATE"/>
+    <uses-permission n1:name="android.permission.INTERNET"/>
+    <uses-permission n1:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission n1:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission n1:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission n1:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission n1:name="android.permission.WAKE_LOCK"/>
+    <uses-permission n1:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission n1:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission n1:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission n1:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission n1:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission n1:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission n1:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission n1:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-feature n1:name="android.hardware.gamepad" n1:required="false"/>
+    <uses-feature n1:name="android.software.leanback" n1:required="false"/>
+    <meta-data n1:name="android.support.VERSION" n1:value="25.3.0"/>
+    <uses-permission n1:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission n1:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application n1:label="@string/app_name" n1:icon="@mipmap/fy1" n1:name="com.gemini.application.GeminiApplication" n1:persistent="true" n1:allowBackup="true" n1:largeHeap="true" n1:supportsRtl="true" n1:banner="@mipmap/iptv">
+        <activity n1:theme="@n1:style/Theme.Black.NoTitleBar.Fullscreen" n1:label="@string/app_name" n1:name="com.gemini.kvod2.ValidateActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="locale|orientation|screenSize">
+            <intent-filter>
+                <action n1:name="android.intent.action.MAIN"/>
+                <category n1:name="android.intent.category.LAUNCHER"/>
+                <category n1:name="android.intent.category.LEANBACK_LAUNCHER"/>
+                <category n1:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action n1:name="android.intent.action.VIEW"/>
+                <category n1:name="android.intent.category.DEFAULT"/>
+                <category n1:name="android.intent.category.BROWSABLE"/>
+                <data n1:scheme="iptv"/>
+            </intent-filter>
+        </activity>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.AboutActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.LauncherActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.Launcher2Activity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.LivePlayerActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.BackPlayerActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.BackPlayerVideoActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.BackPlayer2Activity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.Black.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerListActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.Black.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerList2Activity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.Black.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerMainActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerInfoActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerInfo2Activity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.VodPlayerVideoActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.AppsActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.ControlPlayerActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.kvod2.LoginActivity" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar.Fullscreen" n1:name="com.gemini.play.SetWebview" n1:launchMode="singleTop" n1:screenOrientation="landscape" n1:configChanges="orientation|screenSize"/>
+        <service n1:name="com.gemini.play.LocalService">
+            <intent-filter>
+                <action n1:name="com.demo.SERVICE_DEMO"/>
+                <category n1:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service n1:name="com.tvbus.engine.TVService">
+            <intent-filter>
+                <action n1:name="com.demo.SERVICE_DEMO"/>
+                <category n1:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <provider n1:name="android.support.v4.content.FileProvider" n1:exported="false" n1:authorities="com.gemini.kvod2.provider" n1:grantUriPermissions="true">
+            <meta-data n1:name="android.support.FILE_PROVIDER_PATHS" n1:resource="@xml/file_paths"/>
+        </provider>
+        <service n1:name="com.memo.cable.MemoDeviceService" n1:exported="false"/>
+        <activity n1:theme="@n1:style/Theme.NoTitleBar" n1:name="io.vov.vitamio.activity.InitActivity" n1:launchMode="singleTop" n1:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|smallestScreenSize" n1:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+</manifest>

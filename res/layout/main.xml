@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:id="@id/frameLayout" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <WebView n1:id="@id/webView" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <LinearLayout n1:layout_gravity="bottom|center|left" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="100.0dip" n1:layout_margin="40.0dip">
+        <LinearLayout n1:gravity="left" n1:layout_gravity="left" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="5.0dip" n1:layout_weight="0.5">
+            <TextView n1:textSize="36.0dip" n1:gravity="left" n1:layout_gravity="left" n1:id="@id/loadingtext2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.5" />
+            <LinearLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.5" />
+        </LinearLayout>
+        <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.5">
+            <com.gemini.play.NumberProgressBar n1:id="@id/load_progressBar" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:progress="100" style="@style/NumberProgressBar_Relax_Blue" />
+            <com.gemini.play.NumberProgressBar n1:id="@id/load_progressBar_szysx" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:progress="100" style="@style/NumberProgressBar_Relax_Blue" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView n1:textSize="36.0dip" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/loadingtext" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</FrameLayout>

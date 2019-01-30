@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <FrameLayout n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <ImageView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/image" n1:layout_width="80dp" n1:layout_height="80dp" n1:scaleType="fitXY"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:background="@drawable/gradient" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.5">
+        <GridView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/inputgrid" n1:background="@android:color/transparent" n1:nextFocusLeft="@id/inputgrid" n1:nextFocusUp="@id/inputgrid" n1:nextFocusDown="@id/inputgrid" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="10.0dip" n1:horizontalSpacing="4.0dip" n1:verticalSpacing="3.0dip" n1:numColumns="5" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.5">
+        <LinearLayout n1:orientation="vertical" n1:background="@drawable/gradient5" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="5.0dip" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="5.0dip" n1:layout_weight="0.22">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+                <Spinner n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/spinner_sort" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.75" />
+                <Button n1:textColor="@android:color/white" n1:id="@id/button_sort" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text1" n1:layout_weight="0.25" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:background="@drawable/gradient5" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="5.0dip" n1:layout_weight="0.22">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+                <EditText n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/edittext_find" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:singleLine="true" n1:layout_weight="0.75" />
+                <Button n1:textColor="@android:color/white" n1:id="@id/button_find" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text3" n1:layout_weight="0.25" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:background="@drawable/gradient5" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="5.0dip" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="10.0dip" n1:layout_weight="0.56">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.26">
+                <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_area" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text9" n1:layout_weight="0.2" />
+                <Spinner n1:id="@id/spinner_area" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.26">
+                <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_year" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text8" n1:layout_weight="0.2" />
+                <Spinner n1:id="@id/spinner_year" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.26">
+                <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/text_type" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text7" n1:layout_weight="0.2" />
+                <Spinner n1:id="@id/spinner_type" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.22">
+                <Button n1:textColor="@android:color/white" n1:id="@id/button_filter" n1:background="@drawable/select2" n1:nextFocusLeft="@id/inputgrid" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/vodfind_text10" n1:layout_weight="0.5" />
+                <Button n1:textColor="@android:color/white" n1:id="@id/button_back" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/back2" n1:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="20.0dip" n1:id="@id/textView1" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="免责声明：" />
+    <TextView n1:id="@id/textView2" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="一旦您使用本软件，即表示您愿意接受以下条约。" />
+    <TextView n1:id="@id/textView3" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="1.您同意尽您最大的努力来防止和保护未经授权的发表和使用本程式及其文件内容，本企业保留所有无明确说明的权利。" />
+    <TextView n1:id="@id/textView4" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="2.禁止用本软件发布违反国家法律法规的视频或信息，如有违者，本企业对其概不负责，亦不承担任何法律责任。 " />
+    <TextView n1:id="@id/textView5" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="3.本软件不能在任何发布版本中删除或更改，本软件严禁用于任何形式的商业用途。 " />
+    <TextView n1:id="@id/textView6" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="如有发现侵权现象或用于发布违反国家法律法规的视频或信息，请与您的服务提供商联系" />
+    <TextView n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView7" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView8" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView10" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <TextView n1:id="@id/textView9" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <Button n1:textColor="@color/white" n1:layout_gravity="center_horizontal" n1:id="@id/negativeButton" n1:background="@drawable/select2" n1:layout_width="200.0dip" n1:layout_height="80.0dip" n1:text="@string/back2" />
+</LinearLayout>

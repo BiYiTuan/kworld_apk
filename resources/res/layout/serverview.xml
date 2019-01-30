@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <TextView n1:id="@+id/serverset_text" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_margin="5dp" n1:text="@string/serverset_text1" n1:layout_weight="0.3"/>
+    <EditText n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@+id/serverset_edit" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_margin="5dp" n1:layout_weight="0.3"/>
+    <LinearLayout n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="50dp">
+        <Button n1:gravity="center" n1:id="@+id/positiveButton" n1:background="@drawable/select2" n1:layout_width="114dp" n1:layout_height="40dp" n1:text="@string/ok" style="@style/text_15_ffffff_sdw"/>
+        <Button n1:gravity="center" n1:id="@+id/negativeButton" n1:background="@drawable/select2" n1:layout_width="114dp" n1:layout_height="40dp" n1:layout_marginLeft="20dp" n1:text="@string/cancel" style="@style/text_15_ffffff_sdw"/>
+    </LinearLayout>
+</LinearLayout>

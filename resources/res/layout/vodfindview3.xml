@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:background="@drawable/gradient" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <LinearLayout n1:orientation="vertical" n1:id="@+id/linearlayout_find" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.4">
+        <EditText n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@+id/edittext_find" n1:background="@drawable/gradient_edit" n1:nextFocusLeft="@+id/inputgrid" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="10dp" n1:layout_marginTop="10dp" n1:layout_marginRight="10dp" n1:layout_marginBottom="5dp" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.1" n1:marqueeRepeatLimit="marquee_forever"/>
+        <GridView n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/inputgrid" n1:background="@android:color/transparent" n1:nextFocusLeft="@+id/inputgrid" n1:nextFocusUp="@+id/inputgrid" n1:nextFocusDown="@+id/inputgrid" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_margin="5dp" n1:horizontalSpacing="4dp" n1:verticalSpacing="3dp" n1:numColumns="6" n1:layout_weight="0.9"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginLeft="10dp" n1:layout_marginTop="10dp" n1:layout_marginRight="10dp" n1:layout_marginBottom="10dp" n1:layout_weight="0.6">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.9">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="1">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/listtext_item" n1:background="@mipmap/tb" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodfindview_text1" n1:layout_weight="0.1"/>
+                <ListView n1:id="@+id/listview_item" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="3dp" n1:layout_marginTop="3dp" n1:layout_marginRight="3dp" n1:layout_marginBottom="3dp" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5dp" n1:layout_weight="0.9"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="1">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/listtext_type" n1:background="@mipmap/tb" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodclassify_text1" n1:layout_weight="0.1"/>
+                <ListView n1:id="@+id/listview_type" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="3dp" n1:layout_marginTop="3dp" n1:layout_marginRight="3dp" n1:layout_marginBottom="3dp" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5dp" n1:layout_weight="0.9"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="1">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/listtext_area" n1:background="@mipmap/tb" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodclassify_text3" n1:layout_weight="0.1"/>
+                <ListView n1:id="@+id/listview_area" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="3dp" n1:layout_marginTop="3dp" n1:layout_marginRight="3dp" n1:layout_marginBottom="3dp" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5dp" n1:layout_weight="0.9"/>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="1">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@+id/listtext_year" n1:background="@mipmap/tb" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="2dp" n1:layout_marginTop="2dp" n1:layout_marginRight="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodclassify_text2" n1:layout_weight="0.1"/>
+                <ListView n1:id="@+id/listview_year" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_marginLeft="3dp" n1:layout_marginTop="3dp" n1:layout_marginRight="3dp" n1:layout_marginBottom="3dp" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5dp" n1:layout_weight="0.9"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.1">
+            <LinearLayout n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.375"/>
+            <Button n1:textColor="@android:color/white" n1:id="@+id/button_find" n1:background="@drawable/select2" n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_marginTop="2dp" n1:layout_marginBottom="2dp" n1:text="@string/vodclassify_text4" n1:layout_weight="0.25"/>
+            <LinearLayout n1:layout_width="0dp" n1:layout_height="match_parent" n1:layout_weight="0.375"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <item n1:state_enabled="false" n1:color="?attr/colorSwitchThumbNormal" n2:alpha="?android:attr/disabledAlpha"/>
+    <item n1:state_checked="true" n1:color="?attr/colorControlActivated"/>
+    <item n1:color="?attr/colorSwitchThumbNormal"/>
+</selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/layout" n1:background="#ee000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ListView n1:id="@id/listview" n1:background="@drawable/gradient5" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="8.0dip" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="1.0dip" n1:layout_weight="0.3" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/live_type_linearLayout" n1:background="@drawable/gradient5" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="8.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="8.0dip" n1:layout_weight="0.7">
+        <LinearLayout n1:orientation="horizontal" n1:background="#ee000000" n1:paddingTop="20.0dip" n1:paddingBottom="20.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.2">
+            <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/find_text" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/typelist_text5" n1:layout_weight="0.2" />
+            <EditText n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/find_edit" n1:background="@drawable/gradient7" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.6" />
+            <Button n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/find_button" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_margin="10.0dip" n1:text="@string/ok" n1:layout_weight="0.2" />
+        </LinearLayout>
+        <GridView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/live_type_inputgrid" n1:background="#ee000000" n1:padding="10.0dip" n1:nextFocusLeft="@id/inputgrid" n1:nextFocusUp="@id/inputgrid" n1:nextFocusDown="@id/inputgrid" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:horizontalSpacing="4.0dip" n1:verticalSpacing="3.0dip" n1:numColumns="5" n1:layout_weight="0.8" />
+    </LinearLayout>
+</LinearLayout>

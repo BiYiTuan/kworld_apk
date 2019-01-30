@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/layout" n1:background="@drawable/gradient7" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.9">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/listtext_type" n1:background="@mipmap/tb" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/vodclassify_text1" n1:layout_weight="0.1" />
+                <ListView n1:id="@id/listview_type" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="16.0dip" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5.0dip" n1:layout_weight="0.9" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/listtext_area" n1:background="@mipmap/tb" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/vodclassify_text3" n1:layout_weight="0.1" />
+                <ListView n1:id="@id/listview_area" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="16.0dip" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5.0dip" n1:layout_weight="0.9" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/listtext_year" n1:background="@mipmap/tb" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="2.0dip" n1:layout_marginTop="2.0dip" n1:layout_marginRight="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/vodclassify_text2" n1:layout_weight="0.1" />
+                <ListView n1:id="@id/listview_year" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="16.0dip" n1:layout_marginRight="8.0dip" n1:layout_marginBottom="16.0dip" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="5.0dip" n1:layout_weight="0.9" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.1">
+            <LinearLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.25" />
+            <Button n1:textColor="@android:color/white" n1:id="@id/button_find" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="2.0dip" n1:layout_marginBottom="2.0dip" n1:text="@string/vodclassify_text4" n1:layout_weight="0.5" />
+            <LinearLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.25" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

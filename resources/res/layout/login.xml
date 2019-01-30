@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <EditText n1:id="@+id/editText2" n1:layout_width="230dp" n1:layout_height="wrap_content" n1:ems="10" n1:layout_x="15dp" n1:layout_y="40dp" n1:layout_weight="1"/>
+    <EditText n1:id="@+id/editText1" n1:layout_width="230dp" n1:layout_height="wrap_content" n1:ems="10" n1:layout_x="15dp" n1:layout_y="148dp" n1:layout_weight="1"/>
+    <TextView n1:id="@+id/textView1" n1:layout_width="250dp" n1:layout_height="wrap_content" n1:text="@string/login_text1" n1:layout_x="15dp" n1:layout_y="7dp"/>
+    <TextView n1:id="@+id/textView2" n1:layout_width="250dp" n1:layout_height="wrap_content" n1:text="@string/login_text2" n1:layout_x="15dp" n1:layout_y="106dp"/>
+    <Button n1:id="@+id/button1" n1:layout_width="91dp" n1:layout_height="wrap_content" n1:text="@string/ok" n1:layout_x="19dp" n1:layout_y="217dp" n1:layout_weight="0.5"/>
+    <Button n1:id="@+id/button2" n1:layout_width="91dp" n1:layout_height="wrap_content" n1:text="@string/cancel" n1:layout_x="150dp" n1:layout_y="217dp" n1:layout_weight="0.5"/>
+</AbsoluteLayout>

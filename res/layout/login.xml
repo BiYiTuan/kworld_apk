@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <EditText n1:id="@id/editText2" n1:layout_width="230.0dip" n1:layout_height="wrap_content" n1:ems="10" n1:layout_x="15.0dip" n1:layout_y="40.0dip" n1:layout_weight="1.0" />
+    <EditText n1:id="@id/editText1" n1:layout_width="230.0dip" n1:layout_height="wrap_content" n1:ems="10" n1:layout_x="15.0dip" n1:layout_y="148.0dip" n1:layout_weight="1.0" />
+    <TextView n1:id="@id/textView1" n1:layout_width="250.0dip" n1:layout_height="wrap_content" n1:text="@string/login_text1" n1:layout_x="15.0dip" n1:layout_y="7.0dip" />
+    <TextView n1:id="@id/textView2" n1:layout_width="250.0dip" n1:layout_height="wrap_content" n1:text="@string/login_text2" n1:layout_x="15.0dip" n1:layout_y="106.0dip" />
+    <Button n1:id="@id/button1" n1:layout_width="91.0dip" n1:layout_height="wrap_content" n1:text="@string/ok" n1:layout_x="19.0dip" n1:layout_y="217.0dip" n1:layout_weight="0.5" />
+    <Button n1:id="@id/button2" n1:layout_width="91.0dip" n1:layout_height="wrap_content" n1:text="@string/cancel" n1:layout_x="150.0dip" n1:layout_y="217.0dip" n1:layout_weight="0.5" />
+</AbsoluteLayout>

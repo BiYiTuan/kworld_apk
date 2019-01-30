@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" n1:orientation="vertical" n1:layout_width="match_parent" n1:layout_height="match_parent">
+    <TextView n1:id="@+id/unbundling_title" n1:visibility="gone" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_margin="5dp" n1:text="@string/unbundling_text1" n1:layout_weight="0.1"/>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.9">
+        <TextView n1:id="@+id/unbundling_text1" n1:layout_width="0dp" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:text="@string/unbundling_text7" n1:layout_weight="0.5"/>
+        <TextView n1:id="@+id/unbundling_text2" n1:layout_width="0dp" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="0dp" n1:layout_weight="0.9">
+        <TextView n1:id="@+id/unbundling_text3" n1:layout_width="0dp" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:text="@string/unbundling_text8" n1:layout_weight="0.5"/>
+        <TextView n1:id="@+id/unbundling_text4" n1:layout_width="0dp" n1:layout_height="wrap_content" n1:layout_margin="5dp" n1:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:layout_gravity="bottom" n1:orientation="horizontal" n1:layout_width="match_parent" n1:layout_height="50dp" n1:layout_marginTop="30dp">
+        <Button n1:gravity="center" n1:id="@+id/positiveButton" n1:background="@drawable/select2" n1:layout_width="114dp" n1:layout_height="50dp" n1:text="@string/unbundling_text6" style="@style/text_15_ffffff_sdw"/>
+        <Button n1:gravity="center" n1:id="@+id/negativeButton" n1:background="@drawable/select2" n1:layout_width="114dp" n1:layout_height="50dp" n1:layout_marginLeft="20dp" n1:text="@string/cancel" style="@style/text_15_ffffff_sdw"/>
+    </LinearLayout>
+</LinearLayout>

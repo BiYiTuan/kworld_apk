@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@mipmap/listbg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:background="@mipmap/tb" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.1">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/buttonLayout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <Button n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center|left" n1:id="@id/dleft" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginBottom="4.0dip" n1:text="@string/liveplayer_text4" n1:singleLine="true" n1:layout_weight="0.2" n1:marqueeRepeatLimit="marquee_forever" />
+            <LinearLayout n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.6" />
+            <Button n1:textColor="@android:color/white" n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center|right" n1:id="@id/dright" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="8.0dip" n1:layout_marginTop="4.0dip" n1:layout_marginBottom="4.0dip" n1:text="@string/back2" n1:singleLine="true" n1:layout_weight="0.2" n1:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <TextView n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/listtext" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/liveplayer_text2" />
+    </FrameLayout>
+    <ListView n1:id="@id/listview" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="0.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="8.0dip" n1:cacheColorHint="@android:color/transparent" n1:divider="#88666666" n1:dividerHeight="1.0dip" n1:layout_weight="0.82" />
+    <TextView n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/scrolltext" n1:background="@drawable/gradient7" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="8.0dip" n1:singleLine="true" n1:layout_weight="0.08" n1:marqueeRepeatLimit="marquee_forever" n1:isScrollContainer="true" />
+</LinearLayout>

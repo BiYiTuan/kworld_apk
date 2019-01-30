@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@mipmap/vb" n1:paddingTop="10.0dip" n1:paddingBottom="10.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.gemini.play.MyVodTop3View n1:id="@id/myvodtopview" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.08" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.92">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.2">
+                <com.gemini.play.MyVodTypeView3 n1:id="@id/myvodtypeview" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            </LinearLayout>
+            <View n1:layout_width="20.0dip" n1:layout_height="fill_parent" />
+            <FrameLayout n1:gravity="center" n1:layout_gravity="center" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.8">
+                <com.gemini.play.MyGridView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/vodgrid" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:horizontalSpacing="10.0dip" n1:verticalSpacing="10.0dip" n1:numColumns="5" />
+                <ProgressBar n1:gravity="center" n1:layout_gravity="center" n1:id="@id/progressBar" n1:visibility="gone" n1:layout_width="50.0dip" n1:layout_height="50.0dip" n1:indeterminateDuration="2000" style="@style/myProgressBarStyleLarge" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.gemini.play.MyVodFindView n1:layout_gravity="right" n1:id="@id/findview" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.7" />
+    </LinearLayout>
+    <ImageButton n1:layout_gravity="center|right" n1:id="@id/findbutton" n1:background="@mipmap/search" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="horizontal" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:background="@android:color/transparent" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.6">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.05" />
+            <com.gemini.play.MyVodClassify2View n1:id="@id/myvodclassifyview" n1:background="@android:color/transparent" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.9" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.05" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.8" />
+    </LinearLayout>
+</FrameLayout>

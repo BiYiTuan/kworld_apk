@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="20.0dip" n1:id="@id/textView1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="免责声明：" />
+    <TextView n1:id="@id/textView2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="一旦您使用本軟件，即表示您願意接受以下條約。" />
+    <TextView n1:id="@id/textView3" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="1.您同意盡您最大的努力來防止和保護未經授權的使用本程序及其文件內容，本企業保留所有無明確說明的權利。" />
+    <TextView n1:id="@id/textView4" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="2.本軟件所有內容均來自於互聯網，如果國家法律禁止使用本軟件及其內容，請立即刪除，如有違反者，本企業概不負責，亦不承擔任何法律責任。" />
+    <TextView n1:id="@id/textView5" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="3.本軟件嚴禁用於任何形式的商業用途。" />
+    <TextView n1:id="@id/textView6" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="如有發現侵權現象，請聯繫我們。郵箱:easytv@mail.china.com" />
+    <TextView n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView7" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView8" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView10" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <TextView n1:id="@id/textView9" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <Button n1:textColor="@color/white" n1:layout_gravity="center_horizontal" n1:id="@id/negativeButton" n1:background="@drawable/select2" n1:layout_width="200.0dip" n1:layout_height="80.0dip" n1:text="@string/back2" />
+</LinearLayout>

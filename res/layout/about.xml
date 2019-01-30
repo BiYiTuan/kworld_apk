@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="20.0dip" n1:id="@id/textView1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text3" />
+    <TextView n1:id="@id/textView2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text4" />
+    <TextView n1:id="@id/textView3" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text5" />
+    <TextView n1:id="@id/textView4" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text6" />
+    <TextView n1:id="@id/textView5" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text7" />
+    <TextView n1:id="@id/textView6" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/about_text8" />
+    <TextView n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView7" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView8" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:id="@id/textView10" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <TextView n1:id="@id/textView9" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+    <Button n1:textColor="@color/white" n1:layout_gravity="center_horizontal" n1:id="@id/negativeButton" n1:background="@drawable/select2" n1:layout_width="200.0dip" n1:layout_height="80.0dip" n1:text="@string/back2" />
+</LinearLayout>

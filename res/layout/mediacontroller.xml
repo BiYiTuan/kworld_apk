@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/mediacontroller_bg" n1:layout_width="fill_parent" n1:layout_height="74.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageButton n1:id="@id/mediacontroller_play_pause" n1:background="@drawable/mediacontroller_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:src="@drawable/mediacontroller_pause" n1:layout_centerVertical="true" n1:contentDescription="@string/mediacontroller_play_pause" />
+        <TextView n1:id="@id/mediacontroller_time_current" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:layout_toRightOf="@id/mediacontroller_play_pause" n1:layout_centerVertical="true" style="@style/MediaController_Text" />
+        <TextView n1:id="@id/mediacontroller_time_total" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="5.0dip" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" style="@style/MediaController_Text" />
+        <SeekBar n1:id="@id/mediacontroller_seekbar" n1:focusable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:max="1000" n1:layout_toLeftOf="@id/mediacontroller_time_total" n1:layout_toRightOf="@id/mediacontroller_time_current" n1:layout_centerVertical="true" style="@style/MediaController_SeekBar" />
+    </RelativeLayout>
+    <TextView n1:ellipsize="marquee" n1:id="@id/mediacontroller_file_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="5.0dip" n1:singleLine="true" style="@style/MediaController_Text" />
+</LinearLayout>

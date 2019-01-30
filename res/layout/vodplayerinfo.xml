@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@mipmap/vb" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.32">
+            <ImageView n1:id="@id/image" n1:background="@drawable/gradient3" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="30.0dip" n1:scaleType="fitXY" n1:layout_weight="0.7" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="30.0dip" n1:layout_marginRight="30.0dip" n1:layout_weight="0.3">
+                <TextView n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/clickrate" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+                <TextView n1:ellipsize="marquee" n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/updatetime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" />
+                <TextView n1:ellipsize="marquee" n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/total" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.68">
+            <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.16">
+                <TextView n1:ellipsize="marquee" n1:gravity="center|left" n1:layout_gravity="center|left" n1:id="@id/name" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="10.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:marqueeRepeatLimit="marquee_forever" />
+            </FrameLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.72">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.15">
+                    <TextView n1:ellipsize="marquee" n1:gravity="center|left|top" n1:layout_gravity="center|left|top" n1:id="@id/area" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_margin="5.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.3" n1:marqueeRepeatLimit="marquee_forever" />
+                    <TextView n1:ellipsize="marquee" n1:gravity="center|left|top" n1:layout_gravity="center|left|top" n1:id="@id/type" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_margin="5.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.7" n1:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.15">
+                    <TextView n1:ellipsize="marquee" n1:gravity="center|left|top" n1:layout_gravity="center|left|top" n1:id="@id/year" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="5.0dip" n1:layout_marginRight="5.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.3" n1:marqueeRepeatLimit="marquee_forever" />
+                    <TextView n1:ellipsize="marquee" n1:gravity="center|left|top" n1:layout_gravity="center|left|top" n1:id="@id/intro3" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="5.0dip" n1:layout_marginRight="5.0dip" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.7" n1:marqueeRepeatLimit="marquee_forever" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.7">
+                    <TextView n1:textColor="#ffc3c3c3" n1:id="@id/intro4" n1:scrollbars="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="5.0dip" n1:singleLine="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="10.0dip" n1:layout_weight="0.12">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                    <Button n1:textColor="@android:color/white" n1:id="@id/button0" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:text="@string/playerinfo_text1" n1:layout_weight="0.25" />
+                    <Button n1:textColor="@android:color/white" n1:id="@id/button1" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:text="@string/playerinfo_text2" n1:layout_weight="0.25" />
+                    <Button n1:textColor="@android:color/white" n1:id="@id/button2" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:text="@string/playerinfo_text3" n1:layout_weight="0.25" />
+                    <Button n1:textColor="@android:color/white" n1:id="@id/button3" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:text="@string/playerinfo_text4" n1:layout_weight="0.25" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.05" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.6" />
+        <com.gemini.play.MyVodSelectionsView n1:layout_gravity="bottom" n1:id="@id/selectionsview" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.4" />
+    </LinearLayout>
+</FrameLayout>

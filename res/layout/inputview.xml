@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <GridView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/inputgrid" n1:background="@android:color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_margin="10.0dip" n1:horizontalSpacing="4.0dip" n1:verticalSpacing="3.0dip" n1:numColumns="5" />
+</LinearLayout>

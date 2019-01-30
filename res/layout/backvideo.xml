@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:id="@id/panal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <org.videolan.vlc.VlcVideoView n1:id="@id/VideoViewSoft" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <com.gemini.play.VideoView n1:id="@id/VideoViewHard" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/backlayout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:orientation="horizontal" n1:background="@drawable/gradient2" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.1">
+            <TextView n1:ellipsize="marquee" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/timeouttext" n1:background="@drawable/gradient3" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="5.0dip" n1:layout_marginRight="5.0dip" n1:text="" n1:scrollHorizontally="true" n1:singleLine="true" n1:layout_weight="0.2" n1:marqueeRepeatLimit="marquee_forever" />
+            <com.gemini.play.ScrollTextView n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/scrolltext" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="5.0dip" n1:layout_marginRight="5.0dip" n1:layout_weight="0.9" />
+            <Button n1:textColor="@android:color/white" n1:layout_gravity="center|right" n1:id="@id/backbutton" n1:background="@drawable/select2" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="4.0dip" n1:text="@string/back" n1:layout_weight="0.1" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.9" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.8" />
+        <com.gemini.play.MyBackInfoView n1:layout_gravity="bottom" n1:id="@id/myinfoview" n1:background="@drawable/gradient2" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.2" />
+    </LinearLayout>
+    <FrameLayout n1:gravity="center" n1:layout_gravity="center" n1:id="@id/progressBar" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <TextView n1:gravity="center" n1:layout_gravity="center" n1:id="@id/progressSpeed" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="10000K/S" />
+        <ProgressBar n1:gravity="center" n1:layout_gravity="center" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:indeterminateDuration="2000" style="@style/myProgressBarStyleLarge" />
+    </FrameLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.9" />
+        <com.gemini.play.ScrollTextView n1:layout_gravity="bottom" n1:id="@id/onescrolltext" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="0.1" />
+    </LinearLayout>
+</FrameLayout>
